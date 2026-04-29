@@ -141,17 +141,17 @@ export const EXPERIENCES: Experience[] = [
 export const CERTIFICATIONS: Certification[] = [
   {
     title: 'Best Programmer Award',
-    issuer: 'Malpani Group',
+    issuer: 'Sangamner College, Sangamner',
     icon: '🏆'
   },
   {
     title: 'SRS Recognition',
-    issuer: 'Internal Recognition',
-    icon: '🥈'
+    issuer: 'College level competition',
+    icon: '🎖️'
   },
   {
     title: 'React Course',
-    issuer: 'Udemy',
+    issuer: 'Udemy ',
     icon: '📜'
   }
 ];

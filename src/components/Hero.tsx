@@ -25,21 +25,18 @@ export function Hero() {
           </motion.span>
 
           <h1 className="text-5xl md:text-7xl mb-6 leading-tight">
-            Hi, I'm <span className="gradient-text">Akash Dighe</span>
+            {/* Hi, I'm <span className="gradient-text">Akash Dighe</span> */}
           </h1>
 
           <div className="text-2xl md:text-3xl font-display font-medium text-gray-400 mb-8 h-20">
             <TypeAnimation
               sequence={[
-                'MERN Stack Specialist',
-                2000,
-                'ReactJS Expert',
-                2000,
-                'NodeJS Developer',
-                2000,
+                'MERN Stack Specialist', 2000,
+                'ReactJS Expert', 2000,
+                'NodeJS Developer', 2000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={30}
               repeat={Infinity}
             />
           </div>
@@ -78,6 +75,44 @@ export function Hero() {
           </div>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="relative hidden lg:block"
+        >
+          {/* Circular Image Container */}
+          <div className="relative z-10 w-64 h-64 lg:w-82 lg:h-82 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
+            <img
+              src="https://picsum.photos/seed/coding/800/800"
+              alt="Akash Dighe Coding"
+              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+              referrerPolicy="no-referrer"
+            />
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-linear-to-t from-background/80 via-transparent to-transparent rounded-full" />
+
+            {/* Experience Badge - Floating on the image */}
+            <motion.div
+              animate={{ y: [0, -8, 0] }}
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute bottom-6 left-1/2 -translate-x-1/2"
+            >
+              <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-2 py-1 shadow-2xl shadow-primary/20">
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
+                  <div>
+                    <p className="text-sm font-bold text-white">2.5+ Years</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Decorative pulsing circles */}
+          <div className="absolute -top-10 -right-10 w-40 h-40 border-2 border-primary/20 rounded-full animate-pulse" />
+          <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-secondary/20 rounded-full animate-pulse" />
+        </motion.div>
 
       </div>
     </section>
@@ -85,53 +120,4 @@ export function Hero() {
 }
 
 
-{/*
 
-   <motion.div
-          initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
-          animate={{ opacity: 1, scale: 1, rotate: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="relative hidden lg:block"
-        >
-          <div className="relative z-10 glass-card p-4 overflow-hidden">
-            <img
-              src="https://picsum.photos/seed/coding/800/800"
-              alt="Akash Dighe Coding"
-              className="rounded-xl w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              referrerPolicy="no-referrer"
-            />
-            <div className="absolute inset-0 bg-linear-to-t from-background/80 to-transparent" />
-
-            <motion.div
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 4, repeat: Infinity }}
-              className="absolute top-10 -left-10 glass-card p-4 flex items-center gap-3"
-            >
-              <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
-                <Code2 size={24} />
-              </div>
-              <div>
-                <p className="text-xs text-gray-400">Experience</p>
-                <p className="text-sm font-bold">2.5+ Years</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 5, repeat: Infinity }}
-              className="absolute bottom-10 -right-10 glass-card p-4 flex items-center gap-3"
-            >
-              <div className="w-10 h-10 bg-secondary/20 rounded-lg flex items-center justify-center text-secondary">
-                <Zap size={24} />
-              </div>
-              <div>
-                <p className="text-xs text-gray-400">Projects</p>
-                <p className="text-sm font-bold">15+ Completed</p>
-              </div>
-            </motion.div>
-          </div >
-
-    < div className = "absolute -top-10 -right-10 w-40 h-40 border-2 border-primary/20 rounded-full animate-pulse" />
-    <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-secondary/20 rounded-full animate-pulse" />
-        </motion.div >
-   */}

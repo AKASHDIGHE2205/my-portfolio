@@ -57,14 +57,14 @@ export function Navbar() {
               {link.name}
             </motion.a>
           ))}
-          <motion.a
+          {/* <motion.a
             href="#contact"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             className="px-5 py-2 bg-primary hover:bg-primary/90 text-white rounded-full text-sm font-semibold transition-all shadow-lg shadow-primary/20"
           >
             Hire Me
-          </motion.a>
+          </motion.a> */}
         </div>
 
         {/* Mobile Toggle */}
