@@ -31,8 +31,8 @@ export function Hero() {
           <div className="text-2xl md:text-3xl font-display font-medium text-gray-400 mb-8 h-20">
             <TypeAnimation
               sequence={[
-                'MERN Stack Specialist', 2000,
-                'ReactJS Expert', 2000,
+                'MERN Stack Developer', 2000,
+                'ReactJS Developer', 2000,
                 'NodeJS Developer', 2000,
               ]}
               wrapper="span"
@@ -42,8 +42,7 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-gray-400 mb-10 max-w-xl leading-relaxed">
-            Full Stack Developer with 2.5+ years of experience building scalable and high-performance web applications. Proficient in modern technologies including React.js, Next.js, Node.js, Express.js, and state management using Redux Toolkit. Strong expertise in designing and developing RESTful APIs, working with relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, and implementing clean, maintainable architecture.
-            Experienced in end-to-end development—from concept and design to deployment—ensuring optimized performance, security, and seamless user experiences. Passionate about writing efficient code, solving complex problems, and delivering robust, production-ready solutions.
+            Full Stack Developer with 2.5+ years of experience building scalable web applications using React.js, Next.js, Node.js, and Express.js. Skilled in RESTful API development, state management with Redux Toolkit, and working with MongoDB, MySQL, and PostgreSQL. Focused on performance, clean architecture, and delivering production-ready solutions.
           </p>
 
           <div className="flex flex-wrap gap-4">
