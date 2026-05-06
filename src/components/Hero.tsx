@@ -25,7 +25,7 @@ export function Hero() {
           </motion.span>
 
           <h1 className="text-5xl md:text-7xl mb-6 leading-tight">
-             Hi, I'm <span className="gradient-text">Akash Dighe</span>
+             Hi, I'm <span className="gradient-text">Akash!</span>
           </h1>
 
           <div className="text-2xl md:text-3xl font-display font-medium text-gray-400 mb-8 h-20">
