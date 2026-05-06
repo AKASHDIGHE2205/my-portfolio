@@ -25,7 +25,7 @@ export function Hero() {
           </motion.span>
 
           <h1 className="text-5xl md:text-7xl mb-6 leading-tight">
-            {/* Hi, I'm <span className="gradient-text">Akash Dighe</span> */}
+             Hi, I'm <span className="gradient-text">Akash Dighe</span>
           </h1>
 
           <div className="text-2xl md:text-3xl font-display font-medium text-gray-400 mb-8 h-20">
@@ -74,7 +74,7 @@ export function Hero() {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -111,7 +111,7 @@ export function Hero() {
           {/* Decorative pulsing circles */}
           <div className="absolute -top-10 -right-10 w-40 h-40 border-2 border-primary/20 rounded-full animate-pulse" />
           <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-secondary/20 rounded-full animate-pulse" />
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>
