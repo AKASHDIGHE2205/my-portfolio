@@ -80,7 +80,7 @@ export function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative hidden lg:block"
         >
-          {/* Circular Image Container */}
+          
           <div className="relative z-10 w-64 h-64 lg:w-82 lg:h-82 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
             <img
               src="https://picsum.photos/seed/coding/800/800"
@@ -88,10 +88,10 @@ export function Hero() {
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
             />
-            {/* Gradient overlay */}
+            
             <div className="absolute inset-0 bg-linear-to-t from-background/80 via-transparent to-transparent rounded-full" />
 
-            {/* Experience Badge - Floating on the image */}
+            
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
@@ -108,7 +108,6 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Decorative pulsing circles */}
           <div className="absolute -top-10 -right-10 w-40 h-40 border-2 border-primary/20 rounded-full animate-pulse" />
           <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-secondary/20 rounded-full animate-pulse" />
         </motion.div> */}
