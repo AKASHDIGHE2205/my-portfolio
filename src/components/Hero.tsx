@@ -58,7 +58,7 @@ export function Hero() {
               View Projects <ArrowRight size={20} />
             </motion.a>
             <motion.a
-              href="/Akash_Dighe_MERN_CV.pdf"
+              href="/Akash_Dighe_Full_Stack_Developer_MERN_3_Years_Exp.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
