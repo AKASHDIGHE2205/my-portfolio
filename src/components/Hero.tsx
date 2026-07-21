@@ -42,7 +42,10 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-gray-400 mb-10 max-w-xl leading-relaxed">
-            Full Stack Developer with 2.5+ years of experience building scalable web applications using React.js, Next.js, Node.js, and Express.js. Skilled in RESTful API development, state management with Redux Toolkit, and working with MongoDB, MySQL, and PostgreSQL. Focused on performance, clean architecture, and delivering production-ready solutions.
+            Results-driven Full Stack Developer with 3+ years of experience designing, developing, and deploying scalable, high-performance web applications. 
+            Proficient in React.js, Next.js, Node.js, and Express.js, with strong expertise in building RESTful APIs, implementing efficient state management using Redux Toolkit, and working with MongoDB, MySQL, and PostgreSQL. 
+            Experienced in developing end-to-end solutions with a focus on clean architecture, performance optimization, responsive user interfaces, and maintainable code. 
+            Adept at collaborating in Agile teams to deliver secure, production-ready applications that meet business requirements and provide an excellent user experience.
           </p>
 
           <div className="flex flex-wrap gap-4">
