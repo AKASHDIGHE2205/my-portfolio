@@ -48,6 +48,22 @@ export const PROJECTS: Project[] = [
       'Enabled secure multi-device access with JWT authentication',
       'Improved financial awareness with monthly budget tracking'
     ]
+  },
+  {
+    id: 'personal-portfolio',
+    title: 'Personal Portfolio',
+    description: 'Modern developer portfolio showcasing projects, skills, and professional journey.',
+    longDescription:
+      'Designed and developed a fully responsive personal portfolio website using React, TypeScript, and Tailwind CSS. Features include a dynamic project showcase, interactive skill progress bars, smooth scroll navigation, dark/light theme toggle, contact form with validation, and optimized performance with lazy loading. The site is deployed on Vercel and serves as a digital resume to present my work and skills to potential employers and clients.',
+    image: '/Portfolio.png', // update with your actual screenshot
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+    github: 'https://github.com/AKASHDIGHE2205/my-portfolio',
+    impact: [
+      'Showcased technical projects with detailed case studies',
+      'Implemented responsive design for all device sizes',
+      'Achieved fast load times and SEO optimization',
+      'Provided an interactive and engaging user experience'
+    ]
   }
 ];
 
