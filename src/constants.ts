@@ -40,43 +40,9 @@ export const PROJECTS: Project[] = [
       'Streamlined approval workflows and activity tracking',
       'Ensured transparency with audit trails and secure access control'
     ]
-  },
-  {
-id: 'daily-expense-tracker',
-title: 'Daily Expense Tracker',
-description: 'Full-stack mobile application for managing daily income and expenses with analytics and transaction tracking.',
-
-longDescription:
-'Developed a cross-platform expense tracking mobile application using React Native Expo, TypeScript, Node.js, Express.js, and MongoDB. Built secure JWT-based authentication, income and expense management, category-wise tracking, and transaction CRUD operations. Implemented dashboard analytics with Day, Week, Month, and Year filters to provide financial insights. Added transaction search, date-based filtering, export functionality, and recent transaction history. Leveraged TanStack Query for efficient server-state management and API caching while ensuring a responsive and user-friendly mobile experience across Android and iOS devices.',
-
-image: '/ExpenseTracker.png',
-
-tech: [
-'React Native Expo',
-'TypeScript',
-'Node.js',
-'Express.js',
-'MongoDB',
-'Redux Toolkit',
-'TanStack Query',
-'React Navigation',
-'Axios',
-'JWT Authentication'
-],
-
-github: 'https://github.com/AKASHDIGHE2205/Expense-tracker',
-
-impact: [
-'Enabled users to efficiently track daily income and expenses',
-'Provided real-time financial insights through dashboard analytics',
-'Improved user experience with advanced search and filtering capabilities',
-'Implemented secure JWT-based authentication and protected APIs',
-'Optimized data fetching and caching using TanStack Query',
-'Delivered a responsive cross-platform mobile experience for Android and iOS'
-]
-}
-
+  }
 ];
+
 export const SKILLS: SkillCategory[] = [
   {
     title: 'Frontend',
