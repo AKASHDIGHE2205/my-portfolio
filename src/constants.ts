@@ -7,13 +7,9 @@ export const PROJECTS: Project[] = [
     description: 'Enterprise portals for courier tracking and property transaction management.',
     longDescription:
       'Developed scalable business portals with two core modules. The Courier (Post) module manages inward and outward entries, maintains master data, and generates filtered reports with PDF and Excel export. The Property Management module handles property sale and purchase transactions with detailed record keeping. Implemented role-based access control, JWT authentication, and secured APIs using bearer tokens.',
-
     image: '/Portals.png',
-
     tech: ['React', 'Node.js', 'MySQL', 'Express', 'Tailwind CSS'],
-
     github: 'https://github.com/AKASHDIGHE2205/Malpani-Portals',
-
     impact: [
       'Digitized courier and property workflows',
       'Enabled advanced reporting with PDF and Excel export',
@@ -27,18 +23,30 @@ export const PROJECTS: Project[] = [
     description: 'Centralized platform for campaign planning, execution, and analytics.',
     longDescription:
       'Built an enterprise-grade platform for managing student marketing campaigns across multiple universities. Features include activity planning workflows, approval systems, real-time dashboards with visual analytics, and Google Maps integration for location tracking. The system also includes knowledge modules such as training, library, and best practices, along with audit trails and role-based secure access.',
-
-    image: '/EventTracker.png', // ✅ correct
-
+    image: '/EventTracker.png',
     tech: ['React', 'Node.js', 'MySQL', 'Express', 'Google Maps API'],
-
     github: 'https://github.com/AKASHDIGHE2205/wham-project',
-
     impact: [
       'Enabled scalable multi-university campaign management',
       'Improved decision-making with real-time analytics dashboards',
       'Streamlined approval workflows and activity tracking',
       'Ensured transparency with audit trails and secure access control'
+    ]
+  },
+  {
+    id: 'expense-tracker',
+    title: 'Daily Expense Tracker (React Native)',
+    description: 'Cross-platform mobile app to track daily expenses with cloud sync and insightful analytics.',
+    longDescription:
+      'Developed a full-stack mobile app using React Native (Expo) and TypeScript for the frontend, with a Node.js/Express backend and MongoDB for data storage. Users can log expenses with categories, view monthly summaries, and visualize spending habits through interactive charts. Features include JWT-based authentication, CRUD operations for transactions, budget alerts, and real-time sync across devices via REST APIs.',
+    image: '/ExpenseTracker.png',
+    tech: ['React Native', 'Expo', 'TypeScript', 'Node.js', 'Express', 'MongoDB'],
+    github: 'https://github.com/AKASHDIGHE2205/expense-tracker',
+    impact: [
+      'Simplified daily expense logging with intuitive UI',
+      'Provided clear spending breakdowns via category charts',
+      'Enabled secure multi-device access with JWT authentication',
+      'Improved financial awareness with monthly budget tracking'
     ]
   }
 ];
@@ -62,7 +70,7 @@ export const SKILLS: SkillCategory[] = [
       { name: 'Express.js', icon: 'Cpu', level: 88 },
       { name: 'REST APIs', icon: 'Globe', level: 92 },
       { name: 'Auth & RBAC', icon: 'Lock', level: 90 },
-      { name: 'Prisma ORM', icon: 'Hexagon', level: 90 }, // replaced empty string
+      { name: 'Prisma ORM', icon: 'Hexagon', level: 90 },
     ],
   },
   {
@@ -85,7 +93,6 @@ export const SKILLS: SkillCategory[] = [
     ],
   },
 ];
-
 
 export const SERVICES: Service[] = [
   {

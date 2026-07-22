@@ -11,7 +11,7 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl mb-8 leading-tight">
+            <h2 className="text-2xl mb-8 leading-tight">
               Let’s Build Something <span className="gradient-text">Impactful</span> 🚀
             </h2>
             <p className="text-sm text-gray-400 mb-12 max-w-lg leading-relaxed">
@@ -25,7 +25,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 mb-1">Email Me</p>
-                  <a href="mailto:akashdighe2205@gmail.com" className="font-bold text-white">akashdighe2205@gmail.com</a>
+                  <a href="mailto:akashdighe2205@gmail.com" className="text-white">akashdighe2205@gmail.com</a>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 mb-1">Call Me</p>
-                  <a href="tel:+919370331608" className="font-bold text-white">+91 9370331608</a>
+                  <a href="tel:+919370331608" className="text-white">+91 9370331608</a>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 mb-1">Location</p>
-                  <p className="font-bold text-white">Pune, Maharashtra, India</p>
+                  <p className="text-white">Pune, Maharashtra, India</p>
                 </div>
               </div>
             </div>

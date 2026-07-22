@@ -11,7 +11,7 @@ export function Experience() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl mb-4"
+            className="text-4xl mb-4"
           >
             Professional <span className="text-primary">Journey</span>
           </motion.h2>

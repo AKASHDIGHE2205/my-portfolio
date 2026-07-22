@@ -4,13 +4,13 @@ import { User, Award, Briefcase, Target } from 'lucide-react';
 const highlights = [
   {
     icon: <Briefcase className="text-primary" />,
-    title: '2.5+ Years of Experience',
+    title: '3 Years of Experience',
     text: 'Delivering scalable full-stack solutions with a strong focus on enterprise-grade applications.'
   },
   {
     icon: <Award className="text-secondary" />,
     title: 'MERN & SQL Expertise',
-    text: 'Proficient in both NoSQL and relational databases, enabling flexible and robust data architectures.'
+    text: 'Proficient in both NoSQL and SQL, enabling flexible and robust data architectures.'
   },
   {
     icon: <Target className="text-accent" />,
@@ -56,7 +56,7 @@ export function About() {
             viewport={{ once: true }}
             className="w-full md:w-1/2"
           >
-            <h2 className="text-4xl md:text-5xl mb-8">
+            <h2 className="text-4xl mb-4">
               Crafting Digital <span className="text-primary">Excellence</span>
             </h2>
             <p className="text-lg text-gray-400 mb-10 leading-relaxed">

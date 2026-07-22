@@ -25,15 +25,16 @@ export function Hero() {
             Available for new opportunities
           </motion.span>
 
-          <h1 className="text-5xl md:text-7xl mb-6 leading-tight">
-            {/* Hi, I'm <span className="gradient-text">Akash Dighe</span> */}
+          <h1 className="text-5xl mb-4 leading-tight">
+            Hi, I'm <span className="gradient-text">Akash Dighe</span>
           </h1>
 
           <div className="text-2xl md:text-3xl font-display font-medium text-blue-600 mb-4 h-10">
             <TypeAnimation
               sequence={[
-                'MERN Stack Specialist', 2000,
-                'ReactJS Expert', 2000,
+                'MERN Stack Developer', 2000,
+                'Full-Stack Developer', 2000,
+                'ReactJS Developer', 2000,
                 'NodeJS Developer', 2000,
               ]}
               wrapper="span"
@@ -43,8 +44,8 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-gray-400 mb-10 max-w-xl leading-relaxed">
-            Full Stack Developer with 2.5+ years of experience building scalable and high-performance web applications. Proficient in modern technologies including React.js, Next.js, Node.js, Express.js, and state management using Redux Toolkit. Strong expertise in designing and developing RESTful APIs, working with relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, and implementing clean, maintainable architecture.
-            Experienced in end-to-end development—from concept and design to deployment—ensuring optimized performance, security, and seamless user experiences. Passionate about writing efficient code, solving complex problems, and delivering robust, production-ready solutions.
+            Full Stack Developer with 3+ years of experience building scalable web applications and high-performance APIs. I specialize in modern JavaScript ecosystems <span className='font-bold'>(React, Next.js, Node.js) </span> and robust database architectures 
+            <span className='font-bold'>(MongoDB, PostgreSQL, MySQL)</span>. Passionate about clean architecture, performance optimization, and crafting intuitive, responsive user experiences that turn complex problems into seamless digital products
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -76,24 +77,24 @@ export function Hero() {
           </div>
         </motion.div>
 
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative hidden lg:block"
         >
           {/* Circular Image Container */}
-          <div className="relative z-10 w-64 h-64 lg:w-82 lg:h-82 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
+          <div className="relative z-10 w-64 h-64 lg:w-120 lg:h-120 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
             <img
               src={Akash}
               alt="Akash Dighe Coding"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
-            
+
             <div className="absolute inset-0 bg-linear-to-t from-background/80 via-transparent to-transparent rounded-full" />
 
-            
+
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
@@ -103,16 +104,13 @@ export function Hero() {
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
                   <div>
-                    <p className="text-sm font-bold text-white">2.5+ Years</p>
+                    <p className="text-sm font-bold text-white">3 Years</p>
                   </div>
                 </div>
               </div>
             </motion.div>
           </div>
-
-          <div className="absolute -top-10 -right-10 w-40 h-40 border-2 border-primary/20 rounded-full animate-pulse" />
-          <div className="absolute -bottom-10 -left-10 w-60 h-60 border-2 border-secondary/20 rounded-full animate-pulse" />
-        </motion.div> */}
+        </motion.div>
 
       </div>
     </section>
