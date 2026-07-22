@@ -11,7 +11,7 @@ export function Services() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl mb-4"
+            className="text-4xl mb-4"
           >
             Solutions I <span className="text-primary">Provide</span>
           </motion.h2>
@@ -43,7 +43,7 @@ export function Services() {
                 <IconRenderer name={service.icon} size={32} />
               </div>
 
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-xl font-bold mb-4 group-hover:text-primary transition-colors">
                 {service.title}
               </h3>
               <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">

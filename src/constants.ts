@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     longDescription:
       'Developed scalable business portals with two core modules. The Courier (Post) module manages inward and outward entries, maintains master data, and generates filtered reports with PDF and Excel export. The Property Management module handles property sale and purchase transactions with detailed record keeping. Implemented role-based access control, JWT authentication, and secured APIs using bearer tokens.',
 
-    image: '/Portals.png', // ✅ correct
+    image: '/Portals.png',
 
     tech: ['React', 'Node.js', 'MySQL', 'Express', 'Tailwind CSS'],
 
@@ -40,9 +40,43 @@ export const PROJECTS: Project[] = [
       'Streamlined approval workflows and activity tracking',
       'Ensured transparency with audit trails and secure access control'
     ]
-  }
-];
+  },
+  {
+id: 'daily-expense-tracker',
+title: 'Daily Expense Tracker',
+description: 'Full-stack mobile application for managing daily income and expenses with analytics and transaction tracking.',
 
+longDescription:
+'Developed a cross-platform expense tracking mobile application using React Native Expo, TypeScript, Node.js, Express.js, and MongoDB. Built secure JWT-based authentication, income and expense management, category-wise tracking, and transaction CRUD operations. Implemented dashboard analytics with Day, Week, Month, and Year filters to provide financial insights. Added transaction search, date-based filtering, export functionality, and recent transaction history. Leveraged TanStack Query for efficient server-state management and API caching while ensuring a responsive and user-friendly mobile experience across Android and iOS devices.',
+
+image: '/ExpenseTracker.png',
+
+tech: [
+'React Native Expo',
+'TypeScript',
+'Node.js',
+'Express.js',
+'MongoDB',
+'Redux Toolkit',
+'TanStack Query',
+'React Navigation',
+'Axios',
+'JWT Authentication'
+],
+
+github: 'https://github.com/AKASHDIGHE2205/Expense-tracker',
+
+impact: [
+'Enabled users to efficiently track daily income and expenses',
+'Provided real-time financial insights through dashboard analytics',
+'Improved user experience with advanced search and filtering capabilities',
+'Implemented secure JWT-based authentication and protected APIs',
+'Optimized data fetching and caching using TanStack Query',
+'Delivered a responsive cross-platform mobile experience for Android and iOS'
+]
+}
+
+];
 export const SKILLS: SkillCategory[] = [
   {
     title: 'Frontend',
@@ -51,9 +85,9 @@ export const SKILLS: SkillCategory[] = [
       { name: 'Tailwind CSS', icon: 'Palette', level: 95 },
       { name: 'JavaScript', icon: 'Code', level: 90 },
       { name: 'TypeScript', icon: 'FileType', level: 88 },
-      { name: 'React.js', icon: 'Atom', level: 90 },
-      { name: 'Next.js', icon: 'Rocket', level: 85 }
-    ]
+      { name: 'React.js', icon: 'Atom', level: 95 },
+      { name: 'Next.js', icon: 'Rocket', level: 85 },
+    ],
   },
   {
     title: 'Backend',
@@ -61,16 +95,17 @@ export const SKILLS: SkillCategory[] = [
       { name: 'Node.js', icon: 'Server', level: 85 },
       { name: 'Express.js', icon: 'Cpu', level: 88 },
       { name: 'REST APIs', icon: 'Globe', level: 92 },
-      { name: 'Auth & RBAC', icon: 'Lock', level: 90 }
-    ]
+      { name: 'Auth & RBAC', icon: 'Lock', level: 90 },
+      { name: 'Prisma ORM', icon: 'Hexagon', level: 90 }, // replaced empty string
+    ],
   },
   {
     title: 'Database',
     skills: [
       { name: 'MongoDB', icon: 'Database', level: 85 },
       { name: 'MySQL', icon: 'Table', level: 90 },
-      { name: 'PostgreSQL', icon: 'Layers', level: 82 }
-    ]
+      { name: 'PostgreSQL', icon: 'Layers', level: 82 },
+    ],
   },
   {
     title: 'Tools',
@@ -78,10 +113,13 @@ export const SKILLS: SkillCategory[] = [
       { name: 'Git & GitHub', icon: 'Github', level: 90 },
       { name: 'Postman', icon: 'Send', level: 88 },
       { name: 'Swagger', icon: 'FileText', level: 85 },
-      { name: 'Vercel', icon: 'Cloud', level: 85 }
-    ]
-  }
+      { name: 'Vercel', icon: 'Cloud', level: 85 },
+      { name: 'Hostinger', icon: 'Zap', level: 85 },
+      { name: 'AWS', icon: 'CloudCog', level: 80 },
+    ],
+  },
 ];
+
 
 export const SERVICES: Service[] = [
   {

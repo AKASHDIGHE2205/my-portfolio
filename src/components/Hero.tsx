@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { TypeAnimation } from 'react-type-animation';
-import { ArrowRight, Download, Send, Code2, Zap } from 'lucide-react';
+import { ArrowRight, Download, Send } from 'lucide-react';
+const Akash = '/Akash1.png';
 
 export function Hero() {
   return (
@@ -24,15 +25,15 @@ export function Hero() {
             Available for new opportunities
           </motion.span>
 
-          <h1 className="text-5xl md:text-7xl mb-6 leading-tight">
-            {/* Hi, I'm <span className="gradient-text">Akash Dighe</span> */}
+          <h1 className="text-5xl mb-4 leading-tight">
+            Hi, I'm <span className="gradient-text">Akash Dighe</span>
           </h1>
 
-          <div className="text-2xl md:text-3xl font-display font-medium text-gray-400 mb-8 h-20">
+          <div className="text-2xl md:text-3xl font-display font-medium text-blue-600 mb-4 h-10">
             <TypeAnimation
               sequence={[
                 'MERN Stack Specialist', 2000,
-                'ReactJS Expert', 2000,
+                'ReactJS Developer', 2000,
                 'NodeJS Developer', 2000,
               ]}
               wrapper="span"
@@ -41,9 +42,8 @@ export function Hero() {
             />
           </div>
 
-          <p className="text-lg text-gray-400 mb-10 max-w-xl leading-relaxed">
-            Full Stack Developer with 2.5+ years of experience building scalable and high-performance web applications. Proficient in modern technologies including React.js, Next.js, Node.js, Express.js, and state management using Redux Toolkit. Strong expertise in designing and developing RESTful APIs, working with relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases, and implementing clean, maintainable architecture.
-            Experienced in end-to-end development—from concept and design to deployment—ensuring optimized performance, security, and seamless user experiences. Passionate about writing efficient code, solving complex problems, and delivering robust, production-ready solutions.
+          <p className=" text-gray-400 mb-10 max-w-xl leading-relaxed">
+            Full Stack Developer with 3+ years of experience building scalable web applications and high-performance APIs. I specialize in modern JavaScript ecosystems <span className='font-bold'>(React, Next.js, Node.js)</span> and robust database architectures <span className='font-bold'>(MongoDB, PostgreSQL, MySQL).</span>  Passionate about clean architecture, performance optimization, and crafting intuitive, responsive user experiences that turn complex problems into seamless digital products.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -56,7 +56,7 @@ export function Hero() {
               View Projects <ArrowRight size={20} />
             </motion.a>
             <motion.a
-              href="/Akash_Dighe_MERN_CV.pdf"
+              href="/Akash_Dighe_Full_Stack_Developer_MERN_3_Years_Exp.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -82,11 +82,11 @@ export function Hero() {
           className="relative hidden lg:block"
         >
           {/* Circular Image Container */}
-          <div className="relative z-10 w-64 h-64 lg:w-82 lg:h-82 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
+          <div className="relative z-10 w-64 h-64 lg:w-130 lg:h-130 rounded-full overflow-hidden ring-4 ring-primary/20 mx-auto group">
             <img
-              src="https://picsum.photos/seed/coding/800/800"
+              src={Akash}
               alt="Akash Dighe Coding"
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+              className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
             {/* Gradient overlay */}

@@ -10,7 +10,7 @@ export function Certifications() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl mb-4"
+            className="text-4xl mb-4"
           >
             Certifications & <span className="text-primary">Achievements</span>
           </motion.h2>
@@ -27,11 +27,11 @@ export function Certifications() {
               whileHover={{ y: -10, scale: 1.02 }}
               className="glass-card p-8 flex items-center gap-6 group hover:border-primary/50 transition-all"
             >
-              <div className="text-4xl group-hover:scale-125 transition-transform duration-500">
+              <div className="text-xl group-hover:scale-125 transition-transform duration-500">
                 {cert.icon}
               </div>
               <div>
-                <h3 className="text-lg font-bold text-white group-hover:text-primary transition-colors">
+                <h3 className="text-md font-bold text-white group-hover:text-primary transition-colors">
                   {cert.title}
                 </h3>
                 <p className="text-sm text-gray-400">{cert.issuer}</p>

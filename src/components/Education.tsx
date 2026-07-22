@@ -9,7 +9,7 @@ const education = [
     description: ''
   },
   {
-    degree: 'BSc CS (Bachelor of Science in Computer Science)',
+    degree: 'BCS (Bachelor of Computer Science)',
     year: '2019-2022',
     institution: 'Savitribai Phule Pune University',
     description: ''
@@ -25,7 +25,7 @@ export function Education() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl mb-4"
+            className="text-4xl mb-4"
           >
             Academic <span className="text-primary">Background</span>
           </motion.h2>
@@ -47,7 +47,7 @@ export function Education() {
               <div className="flex items-center gap-2 text-primary text-xs font-bold mb-4">
                 <Calendar size={14} /> {edu.year}
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-primary transition-colors">
+              <h3 className="text-lg font-bold mb-2 text-white group-hover:text-primary transition-colors">
                 {edu.degree}
               </h3>
               <p className="text-sm text-gray-300 font-medium mb-4">{edu.institution}</p>
