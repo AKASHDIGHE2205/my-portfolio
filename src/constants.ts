@@ -82,6 +82,10 @@ export const SKILLS: SkillCategory[] = [
   {
     title: 'Backend',
     skills: [
+      { name: 'C#', icon: 'Hash', level: 80 },
+      { name: 'ASP.NET', icon: 'Layers3', level: 78 },
+      { name: 'Web API', icon: 'Network', level: 82 },
+      { name: 'Entity Framework Core', icon: 'Blocks', level: 78 },
       { name: 'Node.js', icon: 'Server', level: 85 },
       { name: 'Express.js', icon: 'Cpu', level: 88 },
       { name: 'REST APIs', icon: 'Globe', level: 92 },
@@ -95,6 +99,7 @@ export const SKILLS: SkillCategory[] = [
       { name: 'MongoDB', icon: 'Database', level: 85 },
       { name: 'MySQL', icon: 'Table', level: 90 },
       { name: 'PostgreSQL', icon: 'Layers', level: 82 },
+      { name: 'MS SQL Server', icon: 'HardDrive', level: 78 },
     ],
   },
   {
@@ -103,6 +108,9 @@ export const SKILLS: SkillCategory[] = [
       { name: 'Git & GitHub', icon: 'Github', level: 90 },
       { name: 'Postman', icon: 'Send', level: 88 },
       { name: 'Swagger', icon: 'FileText', level: 85 },
+      { name: 'Docker', icon: 'Container', level: 82 },
+      { name: 'Nginx', icon: 'Waves', level: 78 },
+      { name: 'CI/CD (GitHub Actions)', icon: 'Workflow', level: 80 },
       { name: 'Vercel', icon: 'Cloud', level: 85 },
       { name: 'Hostinger', icon: 'Zap', level: 85 },
       { name: 'AWS', icon: 'CloudCog', level: 80 },
